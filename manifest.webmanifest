@@ -1,0 +1,1 @@
+{"name":"TaskMaster Premium","short_name":"TaskMaster","description":"A premium task management application","start_url":"/TaskMaster/","display":"standalone","background_color":"#0f172a","theme_color":"#0f172a","lang":"en","scope":"/TaskMaster/","icons":[{"src":"/vite.svg","sizes":"192x192","type":"image/svg+xml"},{"src":"/vite.svg","sizes":"512x512","type":"image/svg+xml"}]}
