@@ -1,16 +1,63 @@
-# React + Vite
+# TaskMaster Premium 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskMaster is a modern, premium task management application built with **React**, **Vite**, and styled entirely with **Vanilla CSS**. It features a stunning glassmorphism design, native browser notifications for task reminders, and a fully responsive layout.
 
-Currently, two official plugins are available:
+🌐 **[Live Demo](https://HafizAbdulHannan.github.io/TaskMaster/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Premium UI/UX:** A sleek dark mode theme with glassmorphism effects, dynamic radial gradients, and smooth micro-animations.
+- **Task Reminders:** Set specific dates and times for tasks. The app uses the native browser Notification API to alert you when a task is due.
+- **Snooze & Edit:** Easily edit reminder times inline, or snooze notifications by 15 minutes, 1 hour, or 1 day with a single click.
+- **Progressive Web App (PWA):** Installable on any mobile device directly from the browser to function exactly like a native app.
+- **Local Storage Persistence:** All tasks and settings are automatically saved to your browser's local storage. You never lose your data!
+- **Fully Responsive:** Carefully crafted media queries ensure a perfect layout across desktop, tablet, and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework:** React 19
+- **Build Tool:** Vite
+- **Styling:** Vanilla CSS (CSS Variables, Flexbox, Keyframe Animations)
+- **Icons:** Lucide React
+- **PWA Capabilities:** vite-plugin-pwa
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+If you'd like to run this project locally, follow these steps:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HafizAbdulHannan/TaskMaster.git
+   cd TaskMaster
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173/`.
+
+## 📦 Deployment
+
+This project is configured to automatically deploy to **GitHub Pages**. 
+To deploy your own version:
+
+1. Update the `base` property in `vite.config.js` to match your repository name.
+2. Run the deploy script:
+   ```bash
+   npm run deploy
+   ```
+
+---
+*Designed and built with ❤️ to make task management beautiful.*
